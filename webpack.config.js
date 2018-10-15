@@ -1,4 +1,3 @@
-
 const path = require("path");
 const webpack = require("webpack");
 const uglify = require("uglifyjs-webpack-plugin");
@@ -14,16 +13,17 @@ module.exports = {
     umdNamedDefine: true
   },
   module: {
-    rules: [{
-      test: /\.vue$/,
-      loader: 'vue-loader'
-    },
+    rules: [
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      },
       {
         test: /\.less$/,
         use: [
-          { loader: "style-loader" },
-          { loader: "css-loader" },
-          { loader: "less-loader" }
+          {loader: "style-loader"},
+          {loader: "css-loader"},
+          {loader: "less-loader"}
         ]
       },
       {

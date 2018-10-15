@@ -1,6 +1,6 @@
 {
 	"name": "jes-music-player-vue",
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"description": "base vue javascript frame to play music component",
 	"main": "dist/index.min.js",
 	"scripts": {
@@ -13,10 +13,13 @@
 		"url": "git+https://github.com/JesBrian/jes-music-player-vue.git"
 	},
 	"bugs": {
-		"url": "https://github.com/JesBrian/jes-music-player-vue/issues"
+		"url": "https://github.com/JesBrian/jes-music-player-vue/issues",
+		"email": "JesBrian666@gmail.com"
 	},
 	"keywords": [
-		"music"
+		"music",
+		"player",
+		"vue"
 	],
 	"author": "JesBrian",
 	"license": "ISC",
@@ -29,9 +32,8 @@
 		"babel-polyfill": "^6.26.0",
 		"babel-preset-es2015": "^6.24.1",
 		"css-loader": "^0.28.7",
-		"es6-promise": "^4.1.1",
-		"less": "^2.7.3",
-		"less-loader": "^4.0.5",
+		"less": "^3.0.4",
+		"less-loader": "^4.1.0",
 		"style-loader": "^0.19.0",
 		"url-loader": "^0.6.2",
 		"vue": "^2.5.9",
@@ -41,7 +43,6 @@
 		"vue-router": "^3.0.1",
 		"vue-style-loader": "^3.0.3",
 		"vue-template-compiler": "^2.5.9",
-		"vuex": "^3.0.1",
 		"webpack": "^3.9.1",
 		"webpack-dev-server": "^2.9.5"
 	}
